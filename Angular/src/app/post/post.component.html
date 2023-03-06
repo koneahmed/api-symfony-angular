@@ -1,0 +1,8 @@
+<div>
+
+  <p>post works!</p>
+  <div *ngFor="let post in allPosts"> sdfhs</div>
+  <li *ngFor="let post of allPosts; index as i; first as isFirst">
+    {{i}}/{{post.title}} <span *ngIf="isFirst">default</span>
+  </li>
+</div>
